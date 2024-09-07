@@ -131,7 +131,7 @@ Here's a quick overview of the project files:
 - [highestscore.txt](highestscore.txt)  
   Stores top 5 highest scores.
 
-  ## Technologies Used
+## Technologies Used
 
  - **Compilers:**
 
