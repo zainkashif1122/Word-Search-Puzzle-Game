@@ -133,7 +133,7 @@ Here's a quick overview of the project files:
 
 ## Technologies Used
 
- - **Compilers:** Dev-C++, VisualStudio
+ - **Softwares/Compilers:** Dev-C++, VisualStudio
 
  - **Languages:** C++
 
