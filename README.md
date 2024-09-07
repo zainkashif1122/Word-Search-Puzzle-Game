@@ -9,9 +9,10 @@ Take a look at my console-based Word Search Puzzle Game, developed in C++ with v
 5. [Installation](#installation)
 6. [Game Instructions](#game-instructions)
 7. [File Structure](#file-structure)
-8. [Code Explanation](#code-explanation)
-9. [Future Improvements](#future-improvements)
-10. [Conclusion](#conclusion)
+8. [Technologies Used](#technologies-used)
+9. [Code Explanation](#code-explanation)
+10. [Future Improvements](#future-improvements)
+11. [Conclusion](#conclusion)
 
 ## Introduction
 The *Word Search Puzzle Game* is a console-based application developed in C++. It allows players to search for words hidden in a grid of letters. Players can choose from three difficulty levels: Easy, Intermediate, and Hard. The game tracks player scores and maintains a leaderboard of the highest scores.
@@ -129,6 +130,16 @@ Here's a quick overview of the project files:
 
 - [highestscore.txt](highestscore.txt)  
   Stores top 5 highest scores.
+
+  ## Technologies Used
+
+ - **Compilers:**
+
+   Dev-C++, VisualStudio
+
+ - **Languages:**
+
+   C++
 
   ## Code Explanation
 
