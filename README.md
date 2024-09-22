@@ -137,7 +137,7 @@ Here's a quick overview of the project files:
 
  - **Languages:** C++
 
-  ## Code Explanation
+## Code Explanation
 
 The main components of the code include:
 
@@ -172,6 +172,8 @@ The main components of the code include:
 
 - **Mobile Version:**  
   Develop a mobile version of the game for broader accessibility.
+
+> **Note:** Currently the game program works only on dev-C++. So I'm planning to make it work on cross platforms. 
 
 ## Conclusion
 
