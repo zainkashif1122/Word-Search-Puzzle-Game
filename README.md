@@ -24,10 +24,10 @@ The game is designed to be engaging and educational, promoting vocabulary skills
 
 To help visualize the game in action, we have provided two screen recordings:
 
-- [ScreenRecordingPart1](ScreenRecordingPart1)  
+- [ScreenRecordingPart1](ScreenRecordingPart1.mp4)  
   Overview of the game initialization, level selection, and board display.
 
-- [ScreenRecordingPart2](ScreenRecordingPart2)  
+- [ScreenRecordingPart2](ScreenRecordingPart2.mp4)  
   Demonstration of the word search logic, life and scoring system, and high score management.
 
 Feel free to check out these videos to get a better understanding of the game's functionality and user experience.
@@ -36,13 +36,13 @@ Feel free to check out these videos to get a better understanding of the game's 
 ## Features
 - *Three Difficulty Levels*: Easy, Intermediate, and Hard.
 - *Dynamic Word Search*: Players can search for words in various orientations (horizontal, vertical, diagonal).
-- *Score Tracking*: Scores are recorded in a [score.txt](score.txt) file.
-- *Leaderboard*: The top 5 highest scores are stored in a [highestscore.txt](highestscore.txt) file.
+- *Score Tracking*: Scores are recorded in a score file.
+- *Leaderboard*: The top 5 highest scores are stored in a highest score file.
 - *Custom Word Lists*: Each difficulty level has its own set of words and boards.
 - *Life System*: Players start with 3 lives, and they lose a life for every incorrect word guess. Once all lives are lost, the game ends.
 
 ## Installation
-To run the **Word Search Puzzle Game**, ensure you have a C++ compiler installed (like `Dev-C++`) and follow these steps:
+To run the **Word Search Puzzle Game**, ensure you have a C++ compiler installed (like Dev-C++) and follow these steps:
 
 1. **Download the Source Code**: Obtain the source code files from the repository.
    
@@ -96,7 +96,7 @@ If you prefer not to compile the code yourself, you can directly play the game u
 
 8. **Winning the Game**: If you successfully find all the words, the game congratulates you, and you can choose to either continue (`c`) or exit (`e`).
 
-9. **View High Scores**: Players can view the top 5 high scores by pressing `h` at the main menu. High scores are stored in [highestscore.txt](highestscore.txt).
+9. **View High Scores**: Players can view the top 5 high scores by pressing `h` at the main menu. High scores are stored in highest score.
 
 10. **Exit**: Players can exit the game at any time by pressing `e`.
 
@@ -157,7 +157,7 @@ The main components of the code include:
   Players begin with 3 lives and lose one life with each incorrect guess. The score is calculated based on performance and is stored in [score.txt](score.txt).
 
 - **High Score Management:**  
-  The game reads from [score.txt](score.txt) to update the leaderboard in [highestscore.txt](highestscore.txt).
+  The game reads from score to update the leaderboard in highest score.
 
 ## Future Improvements
 
