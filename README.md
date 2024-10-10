@@ -1,6 +1,8 @@
 # Word-Search-Puzzle-Game
 Take a look at my console-based Word Search Puzzle Game, developed in C++ with varying difficulty levels and a dynamic scoring system! 🔍
 
+![image](IMG_0872.jpeg)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Overview](#project-overview)
