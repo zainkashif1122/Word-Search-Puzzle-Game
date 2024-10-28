@@ -26,10 +26,10 @@ The game is designed to be engaging and educational, promoting vocabulary skills
 
 To help visualize the game in action, we have provided two screen recordings:
 
-- [ScreenRecordingPart1](ScreenRecordingPart1.mp4)  
+- [`ScreenRecordingPart1`](ScreenRecordingPart1.mp4)  
   Overview of the game initialization, level selection, and board display.
 
-- [ScreenRecordingPart2](ScreenRecordingPart2.mp4)  
+- [`ScreenRecordingPart2`](ScreenRecordingPart2.mp4)  
   Demonstration of the word search logic, life and scoring system, and high score management.
 
 Feel free to check out these videos to get a better understanding of the game's functionality and user experience.
@@ -49,14 +49,14 @@ To run the **Word Search Puzzle Game**, ensure you have a C++ compiler installed
 1. **Download the Source Code**: Obtain the source code files from the repository.
    
 2. **Create Required Files**: Ensure the following files are created in the same directory as the executable:
-   - [easyboard.txt](easyboard.txt)
-   - [mediumboard.txt](mediumboard.txt)
-   - [hardboard.txt](hardboard.txt)
-   - [easydictionary.txt](easydictionary.txt)
-   - [mediumdictionary.txt](mediumdictionary.txt)
-   - [harddictionary.txt](harddictionary.txt)
-   - [score.txt](score.txt) (initially empty)
-   - [highestscore.txt](highestscore.txt) (initially empty)
+   - [`easyboard.txt`](easyboard.txt)
+   - [`mediumboard.txt`](mediumboard.txt)
+   - [`hardboard.txt`](hardboard.txt)
+   - [`easydictionary.txt`](easydictionary.txt)
+   - [`mediumdictionary.txt`](mediumdictionary.txt)
+   - [`harddictionary.txt`](harddictionary.txt)
+   - [`score.txt`](score.txt) (initially empty)
+   - [`highestscore.txt`](highestscore.txt) (initially empty)
 
 3. **Compile the Code**: Open your terminal or command prompt, navigate to the directory containing the source code, and use the following command:
 
@@ -72,7 +72,7 @@ To run the **Word Search Puzzle Game**, ensure you have a C++ compiler installed
 
 If you prefer not to compile the code yourself, you can directly play the game using the provided executable file:
 
-- **Finalform.exe**: Run this application to play the game without needing to compile the source code. Ensure that all the required files (listed above) are in the same directory as [Finalform.exe](Finalform.exe).
+- **Finalform.exe**: Run this application to play the game without needing to compile the source code. Ensure that all the required files (listed above) are in the same directory as [`Finalform.exe`](Finalform.exe).
 
 ## Game Instructions
 
@@ -106,31 +106,31 @@ If you prefer not to compile the code yourself, you can directly play the game u
 
 Here's a quick overview of the project files:
 
-- [Finalform.cpp](Finalform.cpp)  
+- [`Finalform.cpp`](Finalform.cpp)  
   Main game source code.
 
-- [easyboard.txt](easyboard.txt)  
+- [`easyboard.txt`](easyboard.txt)  
   Game board for Easy level.
 
-- [mediumboard.txt](mediumboard.txt)  
+- [`mediumboard.txt`](mediumboard.txt)  
   Game board for Intermediate level.
 
-- [hardboard.txt](hardboard.txt)  
+- [`hardboard.txt`](hardboard.txt)  
   Game board for Hard level.
 
-- [easydictionary.txt](easydictionary.txt)
+- [`easydictionary.txt`](easydictionary.txt)
   Word list for Easy level.
 
-- [mediumdictionary.txt](mediumdictionary.txt)  
+- [`mediumdictionary.txt`](mediumdictionary.txt)  
   Word list for Intermediate level.
 
-- [harddictionary.txt](harddictionary.txt)  
+- [`harddictionary.txt`](harddictionary.txt)  
   Word list for Hard level.
 
-- [score.txt](score.txt)  
+- [`score.txt`](score.txt)  
   Stores player names and scores.
 
-- [highestscore.txt](highestscore.txt)  
+- [`highestscore.txt`](highestscore.txt)  
   Stores top 5 highest scores.
 
 ## Technologies Used
@@ -156,7 +156,7 @@ The main components of the code include:
   Players input their guesses, and the game checks if the guessed coordinates correspond to a valid word in the dictionary.
 
 - **Life and Scoring System:**  
-  Players begin with 3 lives and lose one life with each incorrect guess. The score is calculated based on performance and is stored in [score.txt](score.txt).
+  Players begin with 3 lives and lose one life with each incorrect guess. The score is calculated based on performance and is stored in [`score.txt`](score.txt).
 
 - **High Score Management:**  
   The game reads from score to update the leaderboard in highest score.
