@@ -179,4 +179,4 @@ The main components of the code include:
 
 ## Conclusion
 
-The Word Search Puzzle Game is a fun and interactive way to enhance vocabulary skills while providing a competitive edge through scoring and leaderboards. With its engaging gameplay and structured file management, it serves as an excellent project for both educational purposes and entertainment. Enjoy the game and happy word searching
+The Word Search Puzzle Game is a fun and interactive way to enhance vocabulary skills while providing a competitive edge through scoring and leaderboards. With its engaging gameplay and structured file management, it serves as an excellent project for both educational purposes and entertainment. Enjoy the game and happy word searching.
